@@ -5,7 +5,7 @@ import API from "../../api/api";
 import PropTypes from "prop-types";
 import { saveAttrInfo } from "../../store/action";
 import { connect } from "react-redux";
-import { is, fromJS } from "immutable"; // 保证数据的不可变
+// import { is, fromJS } from "immutable"; // 保证数据的不可变
 import AlertTip from "../../components/alert_tip/alert_tip";
 // import Shop from '../../components/shop_list/shop_list'
 import "./search.scss";
@@ -58,7 +58,7 @@ class Food extends Component {
       // "type": "search"
     };
 
-    let res = API.search(obj);
+    // let res = API.search(obj);
     // console.log("res", res);
     // this.setState({
     //   result:res.

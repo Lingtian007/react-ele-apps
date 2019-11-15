@@ -1,0 +1,160 @@
+@import '../../style/mixin.scss';
+@import '../../assets//iconfont/iconfont.css';
+
+.tech-container{
+  
+  padding-top: 1.9rem;
+  .tech-list{
+     padding:0;
+    @include font(0.9rem, #555);
+   .order-header {
+     @include font(0.8rem, #555);
+     padding:0  0.6rem ;
+     height: 5rem;
+     line-height: 5rem;
+     .icon-location {
+      //  display: inline-block;
+       color: rgb(106, 116, 252);
+      //  background-color: rgb(106, 116, 252);
+       margin-right: 0.5rem;
+       width:1rem;
+       height:1rem;
+      //  border-radius: 1rem
+     }
+     .icon-arrow-right {
+       float:right;
+     }
+   }
+  }
+     .top {
+      padding: 0 0.6rem;
+      border-left:0.09rem solid #3190e8;
+      height:5rem;
+      line-height:5rem;
+      border-top: 0.2rem solid #ccc;
+      .time {
+  
+      }
+      .right {
+        height:2.9rem;
+        line-height:2.9rem;
+        color: #3190e8;
+        float:right;
+        .p1 {
+
+        }
+        .p2 {
+           height:1.2rem;
+           line-height:1.2rem;
+           padding-left: 0.1rem;
+           padding-right: 0.1rem;
+           font-size: 0.7rem;
+          float: right;
+          background-color:  #3190e8;
+          color: aliceblue;
+          border-radius: 0.5rem;
+        }
+      }
+     }
+     .aply {
+      //  margin-top: 0.6rem;
+       background-color: #fff;
+       padding:  0 0.6rem;
+       font-size: 0.7rem;
+       border-top: 0.2rem solid #ccc;
+      //  height: 2.5rem;
+      //  line-height: 2.5rem;
+      color: rgb(182, 180, 180);
+      .method {
+        height: 2.5rem;
+        line-height: 2.5rem;
+        border-bottom: 0.06rem dashed #ccc;
+        .o1 {
+           color: rgb(97, 96, 96);
+        }
+        .o2 {
+        float: right;
+        }
+
+      }
+      .hong {
+        height: 2.5rem;
+        line-height: 2.5rem;
+        .o3 {
+ 
+        }
+        .o4 {
+        float: right;
+        }
+      }
+     }
+     .new {
+      //  img {
+      //    height: 0.5rem;
+      //    width: 0.5rem;
+      //  }
+       padding:0 0.6rem;
+       border-top: 0.2rem solid #ccc;
+      .title {
+       height: 3rem;
+       line-height: 3rem;
+       border-bottom: 0.08rem dashed #ccc;
+       .img {
+         display: inline-block;
+         height:0.6rem ;
+         width: 0.6rem;
+         background-color: rgb(106, 116, 252);
+         margin-right: 0.3rem;
+       }
+      }
+      .list {
+        height: 1.8rem;
+        line-height: 1.8rem;
+        border-bottom: 0.05rem dashed #ccc;
+        .name{
+       font-size: 0.9rem;
+       color: #8a8a8b;
+        }
+        .num {
+          margin-left: 5rem;
+        }
+        .price {
+          float: right;
+          color: #e7c91b;
+        }
+      }
+      .order {
+        height: 2.2rem;
+        line-height: 2.2rem;
+        border-top: 0.06rem dashed #ccc;
+        .name2{
+          font-size: 0.9rem;
+          color: #acacac;
+        }
+        .price2 {
+          float: right;
+          color: #e7c91b;
+        }
+      }
+    }
+    .sure {
+      padding-left:0.6rem;
+      @include font(0.9rem, #555);
+      background-color: rgb(42, 42, 42);
+      // width: 100%;
+      height: 4rem;
+      line-height: 3rem;
+      .l1 {
+        float: left;
+        color:#fff;
+      }
+      .l2 {
+        float: right;
+        width: 5rem;
+        line-height: 3rem;
+        text-align: center;
+        color:#fff;
+        background-color: rgb(35, 204, 58);
+      }
+    }
+}
