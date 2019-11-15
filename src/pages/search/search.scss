@@ -1,0 +1,82 @@
+@import '../../style/mixin.scss';
+@import '../../assets//iconfont/iconfont.css';
+
+
+.tech-container{
+  padding-top: 1.9rem;
+  // background-color: #fff;
+  .tech-list{
+    // margin-top: 0.6rem;
+    background-color: #fff;
+    padding:0.6rem ;
+    position: relative;
+    @include font(0.9rem, #555);
+    .in {
+     @include font(0.8rem, rgb(88, 85, 85));
+     position: absolute;
+     left: 1rem;
+     top: 1rem;
+    }
+    .out {
+     position: absolute;
+     left: 11.5rem;
+     top: 1rem;
+    }
+   .input{
+     background-color: rgb(224, 220, 220);
+     height: 1.5rem;
+     width: 12rem;
+     padding-left: 1.5rem;
+     border-radius: 1rem;
+     margin-right: 0.5rem;
+   }
+   .btn {
+    height: 1.5rem;
+    width: 2rem;
+    border-radius: 0.5rem;
+    background-color: #3190e8;
+    color: azure;
+   }
+  }
+  .lishi {
+    @include font(0.8rem, #555);
+    height: 2rem;
+    line-height: 2rem;
+    margin-left: 1rem;
+    // margin-bottom: 0.5rem;
+  }
+  .item {
+    background-color: #fff;
+    @include font(0.8rem, #555);
+    padding:0 1rem;
+    // margin-left: 1rem;
+    // margin-right: 1rem;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    border-bottom: 0.06rem solid #cccccc;
+    position: relative;
+    .ou {
+   position: absolute;
+   right: 1rem;
+  //  top: ;
+    }
+  }
+  .no{
+     @include font(0.8rem, #555);
+     height: 2rem;
+     line-height: 2rem;
+     text-align: center;
+    // margin-left: 1rem;
+  }
+  .del {
+     @include font(0.8rem, #3190e8);
+     margin-top: 0.5rem;
+     height: 1.4rem;
+     line-height: 1.4rem;
+     text-align: center;
+     
+  }
+  .del:hover{
+    color: #3190e8;
+  }
+}
